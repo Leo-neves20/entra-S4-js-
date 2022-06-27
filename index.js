@@ -1,8 +1,6 @@
 
 function snapCrackle(maxValue){
 
-    let contador = ""
-
     for(let numero = 1 ; numero <= maxValue; numero++){
         
         if(numero % 2 == 1 && numero % 5 == 0 ){
