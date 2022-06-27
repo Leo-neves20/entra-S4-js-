@@ -1,27 +1,30 @@
 
 function snapCrackle(maxValue){
+    
+    let arrayString = ""
 
     for(let numero = 1 ; numero <= maxValue; numero++){
         
         if(numero % 2 == 1 && numero % 5 == 0 ){
 
-            console.log("SnapCrackle")
+            arrayString += " snapCrakle "
             
         }else if(numero % 5 == 0 ){
             
-            console.log("Crackle")
+            arrayString += " crackle "
 
         }else if(numero % 2 == 1){
             
-            console.log("Snap")
+            arrayString += " snap "
 
         }else{
 
-            console.log(numero)
-            
+             arrayString += numero
         }
 
     }
+
+    return  arrayString 
 
 }
 
