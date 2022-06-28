@@ -7,26 +7,24 @@ function snapCrackle(maxValue){
         
         if(numero % 2 == 1 && numero % 5 == 0 ){
 
-            arrayString += "snapCrakle"
+            arrayString += " snapCrakle, "
             
         }else if(numero % 5 == 0 ){
             
-            arrayString += 'crackle'
+            arrayString += " crackle,"
 
         }else if(numero % 2 == 1){
             
-            arrayString += 'snap'
+            arrayString += " snap, "
 
         }else{
 
-             arrayString += (` ${numero} `)
+             arrayString += (numero + ", ")
         }
 
     }
 
-    let resultadoFinal = arrayString.split(" ")
-
-    return resultadoFinal
+    return arrayString
 
 }
 
